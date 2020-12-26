@@ -5,6 +5,7 @@
 #include "game.h"
 
 void Game::start() {
+    srand((unsigned)time(0));
     int number = rand() % 1000 + 1;
     int tries = 1;
     bool done = false;
@@ -20,7 +21,7 @@ void Game::start() {
         }
         tries++;
     }
-    std::cout << "Well done, you have found the guess.";
+    std::cout << "Well done, you have found the guess. Amount of tries: " << tries;
 }
 
 bool Game::found(int guess, int number) {
