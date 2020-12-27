@@ -6,9 +6,9 @@
 #define PROOF_OF_CONCEPT_TROJAN_HORSE_GAME_H
 #include <cstdlib>
 #include <iostream>
-#include <stdio.h>
-#include <stdlib.h>
-#include<time.h>
+#include <cstdio>
+#include <cstdlib>
+#include<ctime>
 class Game {
 
 public:
