@@ -14,6 +14,7 @@
 #include <WS2tcpip.h>
 #include <cstdio>
 #include <cstdlib>
+#include <process.h>
 #undef UNICODE
 
 #define DEFAULT_BUFLEN 512
@@ -24,6 +25,8 @@
 class Server {
 public:
     int start();
+private:
+
 };
 
 
